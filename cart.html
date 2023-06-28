@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Пиросмани</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+
+
+          <a class="navbar-brand" href="./index.html">
+            <img src="img/svg/header/header__logo.svg" alt="header__logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Меню
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-1.svg" alt="header__icon-1"></span>Супы</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-2.svg" alt="header__icon-2"></span>Хачапури</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-3.svg" alt="header__icon-3"></span>Холодные закуски</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-4.svg" alt="header__icon-4"></span>Хинкали</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-5.svg" alt="header__icon-5"></span>Шашлык</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-6.svg" alt="header__icon-6"></span>Соусы</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-7.svg" alt="header__icon-7"></span>Салаты</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-8.svg" alt="header__icon-8"></span>Горячие блюда</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-9.svg" alt="header__icon-9"></span>Гарнир</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-10.svg" alt="header__icon-10"></span>Десерты</a>
+                  <a class="dropdown-item" href="#"><span><img src="img/svg/header/icon-11.svg" alt="header__icon-11"></span>Напитки</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./delivery.html">Доставка<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./order.html">Оплата</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" href="#booking">Бронь стола</a>
+              </li>
+            </ul>
+
+            <div class="menu-right d-flex justify-content-between">
+              <div class="menu-contact">
+                <a href="tel:+78312826000">
+                  <img src="img/svg/phone.svg" alt="phone">
+                  <span>+7 (831) 282-60-00</span>
+                </a>
+              </div>
+              <div class="menu-user">
+                <button class="profile">
+                  <img src="img/svg/person.svg" alt="person">
+                </button>
+                <a href="#" class="cart">
+                  <img src="img/svg/shopping-cart.svg" alt="shopping-cart">
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        </nav>
+      </header>
+
+      <section class="cart">
+        <div class="container">
+          <div class="cart-top">
+            <div class="cart-product">
+              <h1 class="title">Корзина</h1>
+              <div class="cart-block">
+                <div class="cart-img"><img src="img/productbg.png" alt=""></div>
+                <div class="text">Хачапури</div>
+                <div class="cart-price">
+                  <div class="input_range">
+                    <span class="min button">
+                      <img src="img/svg/minus.svg" alt="minus">
+                    </span>
+                    <input type="text" name="qty" id="qty" maxlength="12"/>
+                    <span class="plus button">
+                      <img src="img/svg/plus.svg" alt="plus">
+                    </span>
+                  </div>
+                </div>
+                <div class="cost">350 ₽</div>
+              </div>
+              <div class="cart-block">
+                <div class="cart-img"><img src="img/productbg.png" alt=""></div>
+                <div class="text">Хачапури</div>
+                <div class="cart-price">
+                  <div class="input_range">
+                    <span class="min button">
+                      <img src="img/svg/minus.svg" alt="minus">
+                    </span>
+                    <input type="text" name="qty" id="qty" maxlength="12"/>
+                    <span class="plus button">
+                      <img src="img/svg/plus.svg" alt="plus">
+                    </span>
+                  </div>
+                </div>
+                <div class="cost">350 ₽</div>
+              </div>
+            </div>
+            <div class="cart-sidebar">
+              <h2 class="title">Заказ №47593</h2>
+              <div class="products">Товаров в корзине <span>700 ₽ </span></div>
+              <div class="promocode">Промокод <span>- 100  ₽</span></div>
+              <div class="total">Итого к оплате <span>600 ₽</span></div>
+              <a href="#" class="order">Оформить заказ</a>
+            </div>
+          </div>
+          <div class="cart-bottom">
+            <div class="cart-order">
+              <div class="purchase-info">
+                <div class="title">
+                  Закажите на 3000 RUB и получите
+                </div>
+                <div class="line">
+                  <img src="img/svg/piggy-bank.svg" alt="piggy-bank"><span><b>30 RUB</b>на бонусный счет</span>
+                </div>
+                <div class="line">
+                  <img src="img/svg/car.svg" alt="car"><span><b>Бесплатная доставка</b></span>
+                </div>
+                <div class="range-slide">
+                  <div class="range-line" data-mins="0" data-max="3000">
+                    <div style="width: 60%;" class="green-line"></div>
+                    <div class="round" data-min="1000 (минимальный заказ)"></div>
+                  </div>
+                  <div class="range-text">
+                    Осталось <b>1988 RUB</b> до бесплатной доставки
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-promocode">
+              <h3 class="title">Промокод</h3>
+              <form action="" method="post">
+                <input type="text" class="cart-btn" placeholder="Введите промокод">
+                <button>Подтвердить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer-left">
+              <div class="phones">
+                <div class="phone-item">
+                  <span>Бесплатный звонок по РФ</span>
+                  <a href="tel:+78312826000">+7 (831) 282-60-00</a>
+                </div>
+                <div class="phone-item">
+                  <span>Для приема заказов</span>
+                  <a href="tel:+79040664685">+7 (904) 066-46-85</a>
+                </div>
+              </div>
+              <div class="time-email">
+                <div class="work-time">
+                  График работы по будням с 9:00 до 18:00
+                </div>
+                <div class="work-email">
+                  <a href="mailto:info@.ru">Email:info@.ru</a>
+                  <a href="#" class="site-help">Поддержка</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-center">
+              <div class="social">
+                <a href="#">Мы в вконтакте ></a>
+                <a href="#">Мы в instagram ></a>
+              </div>
+            </div>
+            <div class="footer-right">
+              <div class="person">
+                <a href="#"><img src="img/svg/footer-person.svg" alt="footer-person"><span>Войти / Регистрация</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <span>©2020. Пиросмани</span>
+            <a href="#">Условия и соглашения</a>
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
+</html>
